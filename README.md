@@ -1,10 +1,9 @@
-This is most of my code for assignments 1 and 2 for algorithms and data structures at Melbourne Uni in 2020
-I wrote *all* of it.
+This is my code for assignments 1 and 2 for algorithms and data structures at Melbourne Uni in 2020
 
 The dataset used https://data.melbourne.vic.gov.au/Business/Business-establishment-trading-name-and-industry-c/vesm-c7r2 
 is basically a record of all the registered businesses in Melbourne and their locations.
 
-Assignment 1 mainly involved writing a *CSV parser* for the dataset (entry.c and entry.h) which was a huge pain-in-the-ass 
+entry.c and entry.h involved writing a *CSV parser* for the dataset which was a huge pain-in-the-ass 
 due to unescaped commas in the dataset, and the fact that I'd never used pointers before.
 
 Assignment 2 involved creating a *2 dimensional KD tree* which would take the businesses' parsed details and store each 
@@ -19,9 +18,10 @@ a linked list connected to that node. This is why simple searches can output man
 
 In the command-line:
 - make
-This will create two files: map1 and map2
-There are two main functions of the program:
 
+This will create two files: map1 and map2
+
+There are two main functions of the program:
 - map1 -> Performs a *nearest-neighbour search* using given coordinates
 - map2 -> Performs a *radius search* around given coordinates, with a given radius to search
 
