@@ -18,14 +18,12 @@ a linked list connected to that node. This is why simple searches can output man
 **Compiling**
 
 In the command-line:
+- make
+This will create two files: map1 and map2
+There are two main functions of the program:
 
-make
-
-- This will create two files: map1 and map2
-- There are two main functions of the program:
-
-map1 -> Performs a *nearest-neighbour search* using given coordinates
-map2 -> Performs a *radius search* around given coordinates, with a given radius to search
+- map1 -> Performs a *nearest-neighbour search* using given coordinates
+- map2 -> Performs a *radius search* around given coordinates, with a given radius to search
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -33,7 +31,7 @@ map2 -> Performs a *radius search* around given coordinates, with a given radius
 
 To perform this search on a bunch of different queries, run:
 
-./map1 Data/CLUEdata2018_random.csv output_file < Data/queriesStage1
+- ./map1 Data/CLUEdata2018_random.csv output_file < Data/queriesStage1
 
 The number of comparisons for each query will be shown on your terminal, and the results will be in output_file
 
@@ -43,6 +41,6 @@ The number of comparisons for each query will be shown on your terminal, and the
 
 To perform this search on a bunch of different queries, run:
 
-./map2 Data/CLUEdata2018_random.csv output_file < Data/queriesStage2
+- ./map2 Data/CLUEdata2018_random.csv output_file < Data/queriesStage2
 
 The number of comparisons for each query will be shown on your terminal, and the results will be in output_file
