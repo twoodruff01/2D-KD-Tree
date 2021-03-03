@@ -1,4 +1,4 @@
-This is my code for assignments 1 and 2 for algorithms and data structures at Melbourne Uni in 2020
+This is my code for assignments 1 and 2 of my algorithms course at uni.
 
 The dataset used https://data.melbourne.vic.gov.au/Business/Business-establishment-trading-name-and-industry-c/vesm-c7r2 
 is basically a record of all the registered businesses in Melbourne and their locations.
@@ -44,3 +44,4 @@ To perform this search on a bunch of different queries, run:
 - ./map2 Data/CLUEdata2018_random.csv output_file < Data/queriesStage2
 
 The number of comparisons for each query will be shown on your terminal, and the results will be in output_file
+

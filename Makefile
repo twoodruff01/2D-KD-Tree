@@ -30,4 +30,4 @@ kdTree.o: kdTree.c kdTree.h entry.h list.h
 
 
 clean:
-	rm *.o map1 map2
+	rm *.o map1 map2 *output*
